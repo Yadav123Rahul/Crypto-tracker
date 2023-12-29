@@ -1,0 +1,14 @@
+.grid_card{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.tablemain{
+    width: 100%;
+}
+
+.mytable{
+    width: 100%;
+}

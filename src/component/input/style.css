@@ -1,0 +1,22 @@
+.search_area{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    width: 80%;
+    margin:  0 auto;
+    padding: 15px 20px;
+    background: var(--darkgray);
+    border-radius: 35px;
+}
+
+.myinput{
+    width: 100%;
+    background: transparent;
+    color: var(--gray);
+    font-size: 20px;
+    border: none;
+}
+
+.myinput:focus{
+    outline: none;
+}

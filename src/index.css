@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+    --white:#FFF;
+    --black:#111;
+    --blue:#3a88e9;
+    --gray:#888;
+    --darkgray:#1b1b1b;
+    --green:#61e96f;
+    --red:#f94141;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: var(--black);
+    color: var(--white);
+    padding: 0 48px;
+    /* overflow: hidden;
+    overflow-y: scroll; */
+}
+
+a{
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 500;
+}
+a:hover{
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+a>p{
+    margin: 0;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        padding: 0px 20px;
+    }
+}
+
+.gray_wrapper{
+    display: block;
+    background: var(--darkgray);
+    border-radius: 1rem;
+    padding: 10px 0px 10px 30px;
+    margin: 20px 0;
+}
+
+
+.padding{
+    padding: 20px !important;
+    color: var(--gray);
+    
+}
+
+.coin_desc>a{
+    color: var(--blue) !important;
+    text-decoration: underline !important;
+    font-size: 15px !important;
+}
+
+.readmore{
+    color: var(--blue);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.price_change{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-size: 18px;
+    gap:0.5rem;
+    margin: 20px 0;
+}
+
+.toggle_prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.currency_select{
+    display:flex;
+    align-items: center;
+    gap: 1.5rem;
+}

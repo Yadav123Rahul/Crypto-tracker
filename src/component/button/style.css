@@ -1,0 +1,30 @@
+.button_wrapper{
+    background-color: var(--blue);
+    border-radius: 3rem;
+    font-weight: 600;
+    min-width: 9rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.button_wrapper:hover{
+    box-shadow: 0px 2px 11px 0px rgba(45,128,224,1);
+    transition: all 0.3s;
+}
+
+.outline_btn{
+    background-color: var(--black);
+    border-radius: 3rem;
+    font-weight: 600;
+    min-width: 9rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    color: var(--white);
+    border: solid 2px var(--blue);
+}
+
+.outline_btn:hover{
+    background-color: var(--blue);
+    transition: all 0.3s;
+}
